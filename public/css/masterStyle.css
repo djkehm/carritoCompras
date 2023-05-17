@@ -1,0 +1,22 @@
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top:0px;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición para suavizar el cambio de color */
+  }
+  
+  .boton:hover {
+    /*background-image: linear-gradient(to bottom, #000000, #4B4E6D, #000000);/* Color de fondo al pasar el mouse por encima */
+    color: #00A6FB;
+  }
+
+.bg{
+    background-color: #D00000;
+}
+
+.bg-container{
+    background-color: #006494;
+}
