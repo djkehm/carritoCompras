@@ -8,19 +8,20 @@
     <link href="{{ asset('css/masterStyle.css') }}" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6358d70998.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/6358d70998.js" crossorigin="anonymous"></script>
+    <script src="{{asset('js/navbar.js')}}"></script>
   </head>
   <header>
-  <nav class="navbar bg-black text-white">
+  <nav class="navbar bg-nav text-black fixed-top" id="bg-nav">
     <div class="row justify-content-md-left">
         <a class="navbar-brand  ps-4" href="#">
             <img src="{{asset('images/pngwing.com.png')}}" alt="Bootstrap" width="30" height="24">
         </a>
     </div>
     <div class="row justify-content-md-center">
-        <div class="col-md-auto text-white">
-            <a href="" class="boton">Inicio</a>
-            <a href="" class="boton">Quienes Somos</a>
-            <a href="" class="boton">Servicios</a>
+        <div class="col-md-auto boton">
+            <a href="" class="boton" id="texto">Inicio</a>
+            <a href="" class="boton" id="texto2">Quienes Somos</a>
+            <a href="" class="boton" id="texto3">Servicios</a>
         </div>
     </div>
     <div class="row">
@@ -39,6 +40,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>
     <script src="https://kit.fontawesome.com/6358d70998.js" crossorigin="anonymous"></script>
+    <script src="{{asset('public/js/navbar.js')}}"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
 </html>
